@@ -1,0 +1,68 @@
+/* #03a9f4  #3f51b5*/
+
+#side-nav li a {
+  text-decoration: none;
+  color: #646464b6;
+}
+
+#side-nav li:hover {
+  color: #272121d5;
+}
+
+#side-nav li a:hover {
+  color: #272121d5;
+}
+
+#middle-component-main {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primeWhite);
+  font-family: "Bebas Neue", cursive;
+  margin: 1em 0;
+}
+
+#middle-com-c1 {
+  background: var(--snd-col);
+  width: 18.65%;
+  overflow: hidden;
+  color: #646464b6;
+}
+
+#middle-com-c2 {
+  width: 80%;
+}
+
+#image-holder {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--fst-col);
+
+  padding: 1em;
+}
+
+.image-hold {
+  width: 20%;
+  background-color: var(--primeWhite);
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 0px 10px rgba(176, 255, 144, 0.87),
+    inset 0 0 0px 20px rgba(236, 247, 136, 0.993),
+    inset 0 0 0px 40px rgba(253, 187, 125, 0.993);
+}
+
+#side-nav {
+  line-height: 1;
+}
+
+#side-nav > li {
+  display: block;
+  margin: 0;
+  line-height: 2.1em;
+  font-size: 1.5em;
+  letter-spacing: 0.02em;
+  padding-left: 2em;
+}
+
+/* .account_li {
+  transform: translateX(10%);
+} */

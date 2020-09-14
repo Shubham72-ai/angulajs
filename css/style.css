@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primeBlue: #3f51b5;
+  --lightBlue: #03a9f4;
+  --primeWhite: #ecf0f1;
+
+  --blue-rbi: #03a9f4;
+  --jamuni-rbi: #3f51b5;
+  --shading: rgba(56, 23, 96, 0.5);
+  --outline: hsla(210, 2%, 84%, 0.397);
+  --font-color: #ecf0f1;
+  --faltch: antiquewhite;
+  --strock: #dadce0;
+  --fst-col: #fffffd;
+  --snd-col: #34ffcc;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  /* overflow: scroll; */
+
+  background: #ecf0f1;
+}
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+.logIn_a_tag {
+  text-decoration: none;
+  color: rgb(77, 76, 76);
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+
+  min-height: 1em;
+  transform: translateY(26%);
+}
+
+.logo_logIN {
+  height: 60%;
+  width: 83%;
+  margin-top: 10%;
+  margin-left: 1em;
+}
+
+.c2 {
+  width: 50%;
+}
+
+.login_form {
+  background-color: rgb(0, 174, 255);
+  display: inline-block;
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logInp {
+  width: 18em;
+  padding: 1em;
+  border-radius: 24px;
+  border: 1px solid gray;
+  margin-bottom: 1.5em;
+  font-style: oblique;
+  color: rgb(68, 68, 68);
+  font-weight: 700;
+}
+
+.logInp:focus {
+  outline: none;
+  box-shadow: 0 0 20px 3px rgb(101, 211, 219);
+}
+
+.login_name {
+  text-align: center;
+  margin-bottom: 3em;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.button_in {
+  padding: 0.5em 4em;
+  border-radius: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.034);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button_in:active {
+  background-color: hsl(120, 1%, 64%);
+}
+
+.button_in:focus {
+  outline: none;
+}
+
+.oval_log {
+  background-color: rgb(62, 46, 131);
+  padding: 2em;
+  border-bottom-left-radius: 50% 28%;
+  border-bottom-right-radius: 50% 28%;
+  margin-bottom: 1em;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.placeholderName {
+  transform: translateX(4%);
+  margin-bottom: 0.5em;
+  color: white;
+}
+
+.bgContainer {
+  height: 100vh;
+  background: linear-gradient(
+    to top right,
+    rgb(255, 115, 115) 30%,
+    rgba(255, 255, 255, 0.37) 30%
+  );
+}

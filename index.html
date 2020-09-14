@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bankAdmin" ng-controller="mainController">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- end of log in styles are in here -->
+
+    <!-- main styles are in here -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/secondheader.css" />
+    <link rel="stylesheet" href="./css/bottom.component.css" />
+    <link rel="stylesheet" href="./css/footer.component.css" />
+    <!-- end of main styles are in here -->
+
+    <!-- dash style start -->
+    <link rel="stylesheet" href="./css/top-nav.component.css" />
+    <link rel="stylesheet" href="./css/middle-dash.css" />
+    <link rel="stylesheet" href="./css/table.component.css" />
+    <!-- dash style end -->
+  </head>
+
+  <body>
+    <div class="view" ng-view></div>
+  </body>
+
+  <!-- scripts -->
+  <script src="./js/angular.min.js"></script>
+  <script src="./js/angular-route.js"></script>
+  <script src="./js/angular-animate.js"></script>
+  <script src="./js/mainController.js"></script>
+  <script src="./js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+
+  <script src="./nav_component/nav.component.js"></script>
+  <script src="./logIn_component/logIn.js"></script>
+  <script src="./slider_component/slider.component.js"></script>
+  <script src="./bottom_component/bottom.component.js"></script>
+  <script src="./top-nav-component/top-nav.component.js"></script>
+  <script src="./middle-dash-component/middle-dash.component.js"></script>
+  <script src="./table-component/table.component.js"></script>
+  <script src="./footer-component/footer.component.js"></script>
+</html>
